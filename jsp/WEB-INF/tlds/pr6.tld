@@ -1,0 +1,26 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<short-name>him</short-name>
+	<uri>"/WEB-INF/tlds/pr6.tld"</uri>
+	<tag>
+		<name>hello</name>
+		<tag-class>hell.p6</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>name</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	<tag>
+		<name>choco</name>
+		<tag-class>hell.p6</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>texture1</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+</taglib>

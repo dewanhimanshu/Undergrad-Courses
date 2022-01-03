@@ -1,0 +1,16 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<short-name>reverse</short-name>
+	<uri>"/WEB-INF/tlds/pr8.tld"</uri>
+	<tag>
+		<name>strring</name>
+		<tag-class>program8.p8</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>input</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+</taglib>

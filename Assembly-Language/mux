@@ -1,0 +1,16 @@
+CLA
+INP
+CMA
+INC
+STA B
+CLA
+INP
+STA A
+CLA
+C: ADD A
+ISZ B
+BUN C
+OUT 
+HLT
+A: .data 2 0
+B: .data 2 0

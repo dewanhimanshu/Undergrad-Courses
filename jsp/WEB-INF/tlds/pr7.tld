@@ -1,0 +1,26 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<short-name>him</short-name>
+	<uri>"/WEB-INF/tlds/pr7.tld"</uri>
+	<tag>
+		<name>strring</name>
+		<tag-class>program7.p7</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>str</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>starte</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>ende</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+</taglib>

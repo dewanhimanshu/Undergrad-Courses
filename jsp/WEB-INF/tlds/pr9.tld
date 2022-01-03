@@ -1,0 +1,11 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<short-name>today</short-name>
+	<uri>"/WEB-INF/tlds/pr9.tld"</uri>
+	<tag>
+		<name>strring</name>
+		<tag-class>program9.p9</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+</taglib>
